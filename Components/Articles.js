@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {articleData} from './articleData.js';
 import Image from 'next/image.js';
+import style from './Article.module.css'
 
 function Articles() {
     const [data,setData]=useState([])
@@ -8,15 +9,18 @@ function Articles() {
         setData[articleData]
     },[])
   return (
-    <div>
+    <div className={style.articleList}>
 {
     articleData?articleData.map(article=>(
-        <div>
+        <div className={style.card}>
 
            <a href={article.link} target='_blank'>
-           <Image loader={() => article.img} src={article.img} width={300}
-            height={300}/>
-           <h5>{article.title}</h5>
+            <div className={style.ImageHolder}>
+            <Image loader={() => article.img} src={article.img} 
+            className={style.articleImage} 
+            fill={true}/>
+            </div>
+           <h5 className={style.strong}>{article.title}</h5>
             </a> 
         </div>
     )):''

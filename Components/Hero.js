@@ -24,7 +24,7 @@ function Hero() {
                 <div>
                     {/*Information*/}
                     <p className={style.Title}>Web Developer</p>
-                    <p className={style.Name}>Aaron</p>
+                    <p className={style.Name}>Aaron </p>
                     <p className={style.Name}>Rebelo</p>
 
                 </div>
