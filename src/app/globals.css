@@ -105,3 +105,10 @@ a {
     color-scheme: dark;
   }
 }
+.Body{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  background-color: white;
+}
