@@ -1,0 +1,60 @@
+.bodyOuterBox{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+padding: 50px;
+}
+.skillBox{
+height: fit-content;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+max-width: 150px;
+width: 100%;
+align-items: center;
+}
+.titleHandler{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+color: #CA6D18;
+padding: 15px 0px;
+}
+.skillList{
+font-family: 'Prata';
+list-style-type:none;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 20px;
+width: 100%;
+align-items: center;
+}
+.skillIndivisual{
+    font-family: 'Prata';
+    padding-bottom: 13px;
+}
+.textReadInfo{
+    font-family: 'Prata';
+    font-size: 20px;
+}
+.noBulletPoint{
+    list-style-type:none;
+    margin: 15px 0px;
+}
+.strong{
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 143% */
+    color: #222222;
+    text-transform: capitalize;
+}
+.clickable{
+    font-family: 'Prata';
+    font-style: normal;
+    text-decoration: underline;
+    font-family: 'Prata';
+    font-size: 20px;
+}

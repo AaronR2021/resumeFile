@@ -18,7 +18,7 @@ function Navbar() {
     </button>
     <div
       className={isNavExpanded?`${style.navigationMenu} ${style.expanded}`:`${style.navigationMenu}`}>
-      <ul>
+      <ul >
         <li>
           <Link href="/">Home</Link>
         </li>

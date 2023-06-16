@@ -16,10 +16,10 @@ function Hero() {
     <div className={style.wavyBackground}>
         <div className={style.Banner}>
         {/*Image part*/}
-            <div>
+            <div className={style.imageInfo}>
                 <div >
                     {/*Image Goes Here*/}
-                    <Image src={srcImage} width={100} height={100} alt='AaronRebelo' className={style.ImgRounded}/>
+                    <Image src={srcImage} width={150} height={150} alt='AaronRebelo' className={style.ImgRounded}/>
                 </div>
                 <div>
                     {/*Information*/}
@@ -30,13 +30,13 @@ function Hero() {
                 </div>
             </div>
                     {/*name-Info part */}
-            <div>
+            <div className={style.contactInfoList}>
                     {/*contact-Info a part */}
                 <ul className={style.contactInfo}>
-                    <li><span className={style.logo}><GitHubIcon sx={{ color: black }} /></span><span className={style.info}><a href="https://github.com/AaronR2021">Github/AaronR2021</a></span></li>
-                    <li><span className={style.logo}><AlternateEmailIcon sx={{ color: red[500] }} /></span><span className={style.info}><a href="mailto:aaronrebelo.personal@gmail.com">aaronrebelo.personal@gmail.com</a></span></li>
-                    <li><span className={style.logo}><LinkedInIcon color="primary" /></span><span className={style.info}><a href="https://www.linkedin.com/in/aaron-rebelo/">linkedin.com/aaron-rebelo</a></span></li>
-                    <li><span className={style.logo}><SmartphoneIcon sx={{ color: green[500] }} /></span><span className={style.info}><a href="tel:+917899100223">+91-7899100223</a></span></li>
+                    <li className={style.logo}><span><GitHubIcon sx={{ color: black }} /></span><span className={style.info}><a href="https://github.com/AaronR2021">Github/AaronR2021</a></span></li>
+                    <li className={style.logo}><span ><AlternateEmailIcon sx={{ color: red[500] }} /></span><span className={style.info}><a href="mailto:aaronrebelo.personal@gmail.com">aaronrebelo.personal@gmail.com</a></span></li>
+                    <li className={style.logo}><span ><LinkedInIcon color="primary" /></span><span className={style.info}><a href="https://www.linkedin.com/in/aaron-rebelo/">linkedin.com/aaron-rebelo</a></span></li>
+                    <li className={style.logo}><span ><SmartphoneIcon sx={{ color: green[500] }} /></span><span className={style.info}><a href="tel:+917899100223">+91-7899100223</a></span></li>
                 </ul>
             </div>
 
