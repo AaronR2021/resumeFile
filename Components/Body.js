@@ -27,7 +27,7 @@ function Body() {
           Experienced MERN stack developer with a strong passion for web3
           development. Seeking an opportunity in a forward-thinking company that
           fosters a positive learning environment, where I can apply my skills
-          to contribute to the organization's growth and enhance my own
+          to contribute to the organizations growth and enhance my own
           professional journey.
         </p>
       </div>
@@ -68,7 +68,7 @@ function Body() {
           <strong className={style.strong}>MERN Stack Developer - Neviton Softech Pvt Ltd. (09/2022 - 03/2023)</strong>
           <ul className={`${style.textReadInfo} ${style.noBulletPoint}`}>
             <li>
-            Worked on projects involving the development of an e-commerce module tailored specifically for a prominent pharmaceutical company. My contributions to this endeavor encompassed various aspects of the module's construction, resulting in a robust and feature-rich solution.
+            Worked on projects involving the development of an e-commerce module tailored specifically for a prominent pharmaceutical company. My contributions to this endeavor encompassed various aspects of the modules construction, resulting in a robust and feature-rich solution.
             </li>
             <li>
             Developed and implemented multiple dashboards for a partner portal module, catering to the needs of various vendors, Contributed to the development of intuitive user interfaces, ensuring seamless navigation and efficient data visualization. Conducted thorough testing and debugging to identify and resolve any issues, ensuring the delivery of high-quality and error-free dashboards.
@@ -87,6 +87,11 @@ function Body() {
         <ul className={`${style.textReadInfo} ${style.noBulletPoint}`}>
           <a href='https://publicnovel-eth.vercel.app/home' className={style.clickable}>
           <li>Public Novel</li>
+          </a>
+        </ul>
+        <ul className={`${style.textReadInfo} ${style.noBulletPoint}`}>
+          <a href='https://customer-onboarding.vercel.app/profile' className={style.clickable}>
+          <li>User Onboarding Experience</li>
           </a>
         </ul>
         <strong className={style.strong}>Block Train:</strong>
